@@ -82,7 +82,7 @@ st.markdown(
 )
 
 st.markdown('<div class="header">Story Generator</div>', unsafe_allow_html=True)
-st.markdown('<div class="subheader">Create a short story and its cover</div>', unsafe_allow_html=True)
+st.markdown('<em><div class="subheader">Create a short story and its cover</div></em>', unsafe_allow_html=True)
 
 with st.form("story_form"):
     st.markdown('<div class="prompt-label">Enter keywords to generate a story:</div>', unsafe_allow_html=True)
